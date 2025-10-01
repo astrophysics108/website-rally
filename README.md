@@ -1,10 +1,10 @@
 # Rally - make a shared website!
 
-This is a community driven website where everyone can add they're own contribution to the website!
+This is a community driven website where everyone can add their own contribution to the website!
 
-We are using (insert framework when decided) as our framework.
+We are using vanilla TS that is built with Vite!
 
-The website is hosted at (domain name here when it is purchased)
+The website is hosted at (domain name here when it is purchased) using GitHub pages!
 
 # Contributing!!!
 
