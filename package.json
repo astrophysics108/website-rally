@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "postbuild": "sh scripts/patch-dist-links.sh",
     "preview": "vite preview"
   },
   "devDependencies": {
