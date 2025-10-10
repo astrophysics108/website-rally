@@ -1,4 +1,4 @@
-name: build-site.yml
+name: Build Site
 on:
   pull_request:
     branches: ['main']

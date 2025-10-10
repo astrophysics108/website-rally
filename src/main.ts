@@ -1,5 +1,5 @@
 import './style.css'
-import icon from "/sword_placeholder.png";
+import icon from "/rallyLogo.png";
 
 function createMainPage() {
     document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -17,9 +17,9 @@ function createMainPage() {
       <div class="credits">
         <h4>Credits!</h4>
         <br>
-        <p>Youthack - Infrastructure and Hosting<br>
-        KittyCat - Site logo <br>
-        Noololly - Site design and organiser<br>
+        <p>Youthacks - infrastructure and hosting<br>
+        KittyCat - site logo <br>
+        Noololly - site design and organiser<br>
         Lenny - organiser<br>
         Mattsoh - organiser<br>
         </p>
