@@ -1,0 +1,50 @@
+:root {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-width: 320px;
+    min-height: 100vh;
+
+    background-color: inherit;
+    color: inherit;
+}
+
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Coolvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+h2 {
+    font-weight: 400;
+    margin: 0.5em 0 1.5em;
+}
+
+button {
+    background-color: #bac2de;
+    border: solid 5px #b4befe;
+    border-radius: 10px;
+    height: 4em;
+    width: 12em;
+    margin-top: 2em;
+
+    transition: filter 300ms;
+    font-weight: bold;
+    color: black;
+}
+
+button:hover {
+    filter: drop-shadow(0 0 2em rgba(246, 148, 255, 0.3));
+}
+

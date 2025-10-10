@@ -10,13 +10,8 @@ COPY . .
 
 RUN npm run build
 
-FROM busybox:1.36.1 AS runner
+FROM nginx:latest AS runner
 
-WORKDIR /app
+WORKDIR /usr/share/nginx/html
 
 COPY --from=builder /app/dist .
-
-EXPOSE 810
-
-CMD ["busybox", "httpd", "-f", "-p", "810", "-h", "/app"]
-# Port 810 because that is today's date <3
