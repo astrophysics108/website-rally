@@ -23,3 +23,5 @@ Please don't touch any files other than `public/links.html` and the files in the
 If, for any reason you'd like to install a package, open a GitHub issue with the `new package request` tag, explaining what the package is and why you need it. A reviewer will get back to you shortly.
 
 Your PR will be requested to have changes made or be closed if any edits to any base files are made without prior request or good reason.
+
+No inappropriate content, PR's with anything that violates our CoC will be closed. Mild swear words are allowed. 
