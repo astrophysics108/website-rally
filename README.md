@@ -10,6 +10,8 @@ The website is hosted at website-rally.dev by our friends over at Youthacks <3
 
 If you're not already in the Hack Club slack, join at [hackclub.com](https://hackclub.com) and join the #website-rally channel
 
+If you're new to HTML and static web development, check out this [tutorial](https://projects.raspberrypi.org/en/pathways/web-intro) from the Raspberry Pi Foundation!!
+
 - Fork the base repository and clone your fork.
 - Run `npm run dev` to start a development web server at `localhost:5173`.
 - Create a directory that is called the same as your GitHub username. Place all of your files inside.
