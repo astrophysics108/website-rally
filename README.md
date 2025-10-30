@@ -14,7 +14,7 @@ If you're new to HTML and static web development, check out this [tutorial](http
 
 - Fork the base repository and clone your fork.
 - Run `npm run dev` to start a development web server at `localhost:5173`.
-- Create a directory that is called the same as your GitHub username. Place all of your files inside.
+- Create a directory that is called the same as your GitHub username *inside the `public` folder*. Place all of your files inside.
 - Add a link to your directory in `links.html` to allow other people to find your work.
 - Make sure that your site builds by running `npm run build`.
 - Open a PR back into the base repository.
