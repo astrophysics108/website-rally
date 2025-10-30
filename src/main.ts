@@ -18,9 +18,11 @@ function createMainPage() {
           <h1>WELCOME TO</h1>
           <img class="rally-pic" src="${rallypic}" alt="Rally"/>
           <p>A community project where everyone adds their own touch to the website</p>
-          <div class="button">
-                <button onclick="document.location='./links.html'">To the pages!!!</button>
-            </div>
+          <a href='./links.html' style=" text-decoration:none;">
+          <div class = "rounded-box">
+          <p style="line-height:5em; width:auto; color:white;">To the pages!!!<p>
+          </div>
+          </a>
         </div>
       </div>
       </div>

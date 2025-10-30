@@ -11,11 +11,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* 
+
 .heading {
     text-align: center;
     width: 100%;
-} */
+}
 
 .container {
   display: grid;
@@ -23,6 +23,31 @@
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
+}
+
+.rounded-box {
+  background-color:#7589F5;
+  width: 80%;
+  height:10em;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius:2em;
+}
+
+.rounded-box:hover {
+  transform: scale(1.05);
+  background-color: #96a3ee;
+  transition: 0.3s ease;
+
+}
+
+.rounded-box.vanilla:hover {
+  transform: scale(1.05);
+  background-color: #96a3ee;
+  transition: 0.3s ease;
+
 }
 
 .rally-pic {
