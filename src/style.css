@@ -25,6 +25,12 @@
   padding-right: 1em;
 }
 
+@media only screen and (max-width: 1100px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
 .rounded-box {
   background-color:#7589F5;
   width: 80%;
