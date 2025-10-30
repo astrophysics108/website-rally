@@ -1,0 +1,9 @@
+:root {
+    background-color: #F5E7DE;
+    font-family: Coolvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
