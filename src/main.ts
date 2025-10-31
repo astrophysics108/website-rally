@@ -1,19 +1,33 @@
 import './style.css'
-import icon from "/rallyLogo.png";
+import icon from "/newrallylogo.png";
+import rallypic from "/rally.png";
 
 function createMainPage() {
     document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
       <div class="heading">
-      <div>
-        <img class="logo" src="${icon}" alt="Rally Logo"/>
+      <div class = "container">
+        <div>
+          <img class="logo" src="${icon}" alt="Rally Logo"/>
+        </div>
+        <div>
+          <h1>WELCOME TO</h1>
+          <img class="rally-pic" src="${rallypic}" alt="Rally"/>
+          <p>A community project where everyone adds their own touch to the website</p>
+          <a href='./links.html' style=" text-decoration:none;">
+          <div class = "rounded-box">
+          <p style="line-height:5em; width:auto; color:white;">To the pages!!!<p>
+          </div>
+          </a>
+        </div>
       </div>
-        <h1>Welcome to Rally!!</h1>
-      <div>
-        <p>A community project where everyone adds their own touch to the website</p>
       </div>
-      <div class="button">
-        <button onclick="document.location='./links.html'">To the pages!!!</button>
-     </div>
+        
+     
       <div class="credits">
         <h4>Credits!</h4>
         <br>
